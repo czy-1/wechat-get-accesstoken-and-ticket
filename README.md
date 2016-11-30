@@ -27,7 +27,7 @@ token.config('id','secret',3600000);
 cd wechat-get-accesstoken-and-ticket-master
 npm start
 ```
-Open http://localhost:3000/token or http://localhost:3000/ticket in a browser  
+Open <http://localhost:3000/token> or <http://localhost:3000/ticket> in a browser  
 You will receive a string,this is your token or ticket
 ### use in other project
 Copy `wechat-accesstoken-and-ticket/bin/wechat_token.js` to `yourprojectname/bin`  
@@ -79,7 +79,7 @@ token.config('id','secret',3600000);
 cd wechat-get-accesstoken-and-ticket-master
 npm start
 ```
-在浏览器中打开 http://localhost:3000/token 或者 http://localhost:3000/ticket ,返回的字符串即为token或者ticket。
+在浏览器中打开 <http://localhost:3000/token> 或者 <http://localhost:3000/ticket> ,返回的字符串即为token或者ticket。
 #### 在其他项目中使用
 将 `wechat-accesstoken-and-ticket/bin/wechat_token.js` 复制到 `你的项目名称/bin` 下  
 在需要使用的位置添加代码  
